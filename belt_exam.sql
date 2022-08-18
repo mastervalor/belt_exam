@@ -93,7 +93,7 @@ CREATE TABLE `users` (
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -102,7 +102,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'adam','jenson','adamj@gmail.com','$2b$12$l4blSkW3UaEZQsB0u/gbP.nm0mpFi5WQebKBj7jK.n1/zPpShwV7S','2022-08-17 10:30:37','2022-08-17 10:30:37'),(2,'mark','hamel','markh@gmail.com','$2b$12$4LjhW3vJwB53KLnDAzqVhOCQ9mDksVqbplKySoVAcuXOamXm7WvB.','2022-08-17 10:47:23','2022-08-17 10:47:23'),(3,'robert','son','rs@gamil.com','$2b$12$m7dpkzEoYgL94ZsS45WONO6nBy/qW1/zX0/jGk2OMmF0IbtApEd4i','2022-08-17 13:00:44','2022-08-17 13:00:44');
+INSERT INTO `users` VALUES (1,'adam','jenson','adamj@gmail.com','$2b$12$l4blSkW3UaEZQsB0u/gbP.nm0mpFi5WQebKBj7jK.n1/zPpShwV7S','2022-08-17 10:30:37','2022-08-17 10:30:37'),(2,'mark','hamel','markh@gmail.com','$2b$12$4LjhW3vJwB53KLnDAzqVhOCQ9mDksVqbplKySoVAcuXOamXm7WvB.','2022-08-17 10:47:23','2022-08-17 10:47:23'),(3,'robert','son','rs@gamil.com','$2b$12$m7dpkzEoYgL94ZsS45WONO6nBy/qW1/zX0/jGk2OMmF0IbtApEd4i','2022-08-17 13:00:44','2022-08-17 13:00:44'),(4,'momm','momom','mm@gamil.com','$2b$12$Z3NWwK7UfmFxgnucIuwE3eD2AHA6mNjgzYEu9aEi2Pp/nbd6T3QCu','2022-08-17 16:27:12','2022-08-17 16:27:12');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -115,4 +115,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-17 13:56:42
+-- Dump completed on 2022-08-17 17:18:53
